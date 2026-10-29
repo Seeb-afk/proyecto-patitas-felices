@@ -22,7 +22,7 @@ El objetivo del sitio es ayudar a cualquier persona a informarse, confiar en la 
 - Estados de componentes contemplados: hover, activo, deshabilitado y error; también se recomienda un estado de foco visible para navegación con teclado.
 - Prototipo navegable con el flujo de agendamiento completo.
 - Pantallas contempladas: Inicio, Servicios, detalle de un servicio, Equipo, agendamiento en tres pasos, cita confirmada, Contacto y ubicación, y error 404.
-- Servicios a mostrar: consulta, vacunación, cirugía, peluquería y emergencias, con precios referenciales cuando la clínica los confirme.
+- Servicios a mostrar: consulta, vacunación, cirugía, peluquería y emergencias. La demo usa rangos de mercado en USD, no tarifas oficiales de Patitas Felices.
 
 Como funciones adicionales posibles se consideran una sección **Mis mascotas** con historial de vacunas, modo oscuro, microinteracciones y pruebas de usabilidad con al menos dos personas. No forman parte del alcance inicial acordado, salvo que se decida incorporarlas después.
 
@@ -105,6 +105,32 @@ Se analizaron dos sitios. Las observaciones siguientes resumen la revisión de s
 - Mantener una vía de emergencias visible en todo momento; no depender solo del chat o de una sección difícil de localizar.
 - Evitar un hero ambiguo, botones con tamaños inconsistentes y texto pequeño en navegación móvil.
 
+## Rangos orientativos de precios para la demo (USD)
+
+No se encontró una lista pública oficial de **Patitas Felices** y no se especifica dónde operaría. Los rangos siguientes son referencias de mercado publicadas en México, Chile y Costa Rica, convertidas aproximadamente a dólares; **no representan precios aprobados por la clínica ni un promedio estadístico de Latinoamérica**. Las tarifas dependen de ciudad, especie, peso, producto, horario y qué incluye cada servicio.
+
+| Servicio | Referencias publicadas (aprox. en USD) | Rango que muestra la demo | Alcance del precio |
+|---|---|---|---|
+| Consulta general | México: MXN 200–800 (US$ 11–43); Chile: CLP 25.000 (US$ 25); Costa Rica: ₡21.000 (US$ 46). | **US$ 10–50** | Consulta general, sin exámenes ni medicamentos. |
+| Vacunación | México: vacuna individual MXN 49–331 (US$ 3–18); Costa Rica: ₡15.000–26.000 (US$ 33–57); Chile a domicilio: desde CLP 32.000 (US$ 33). | **US$ 3–35** por dosis; **US$ 30–60** por esquema | Vacunas y paquetes no son equivalentes; la consulta o aplicación puede cobrarse aparte. |
+| Desparasitación | Costa Rica: ₡6.000 oral, ₡10.000 tópica y ₡14.500 parenteral (US$ 13–32). | **US$ 13–32** | Referencia según vía; el producto y peso pueden cambiar el importe. |
+| Peluquería | México: MXN 200–700 (US$ 11–38); Costa Rica: ₡6.500–23.000 (US$ 14–50); Chile a domicilio: desde CLP 28.000 (US$ 29). | **US$ 10–55** | Depende de tamaño, pelaje y si incluye baño, corte y otros cuidados. |
+| Cirugía | Costa Rica: esterilización/castración base ₡36.500–62.000 (US$ 80–136); Chile, procedimiento de esterilización a domicilio: desde CLP 156.000 (US$ 159). | **US$ 80–160** para esterilización/castración básica | No generalizar a otras cirugías. Anestesia, exámenes, medicación e impuestos pueden ser adicionales. |
+| Emergencias | Chile: consulta urgente CLP 40.000–45.000 (US$ 41–46); Costa Rica: consulta nocturna recomendada ₡72.000 (US$ 158). | **US$ 40–160** | Solo consulta inicial de urgencia; exámenes, tratamiento y hospitalización aparte. |
+
+### Conversión y fuentes
+
+Conversiones aproximadas consultadas entre el **27 y el 29 de octubre de 2026**: CRC/USD ₡455,53 por dólar (venta de referencia, [Banco Central de Costa Rica](https://sdd.bccr.fi.cr/en/IndicadoresEconomicos/Inicio/Contenedor/6)); CLP/USD $981,08 por dólar (dólar observado, [Banco Central de Chile](https://si3.bcentral.cl/Bdemovil/BDE/Series/MOV_SC_TC1)); MXN/USD alrededor de 18,67 pesos por dólar ([FIX de Banco de México](https://www.banxico.org.mx/tipcamb/main.do?page=tip&idioma=en)). Las conversiones se redondearon y no incluyen variaciones de cambio, comisiones ni diferencias tributarias.
+
+- [BBVA México: rango de consulta veterinaria, 2026](https://www.bbva.mx/educacion-financiera/seguros/seguro-mascota/cuanto-cuesta-consulta-de-veterinario.html).
+- [SimiPet México: consulta y catálogo de vacunas](https://www.simipet.mx/); sus precios publicados pueden estar sujetos a valoración y cargos de procedimiento.
+- [VetUrgencia, Santiago: consultas regulares y de urgencia](https://veturgencia.cl/urgencias-veterinarias-santiago).
+- [CuidaPet, Chile: consultas, vacunación y peluquería a domicilio](https://www.cuidapet.cl/comunas/penalolen); no es tarifa de consulta en clínica.
+- [Colegio de Profesionales en Medicina Veterinaria de Costa Rica: tarifas mínimas recomendadas 2025](https://colegioveterinarios.or.cr/wp-content/uploads/jet-engine-forms/10/2025/02/Tarifas-Minimas-Recomendadas.pdf). El documento indica valores sin IVA y mínimos recomendados.
+- [TV Azteca/CONDUSEF: gastos de tener una mascota en México, 2025](https://www.tvazteca.com/aztecanoticias/cuanto-cuesta-tener-un-perro-o-gasto-en-mexico-en-2025-precio-mascotas), usada como referencia secundaria para estética.
+
+Antes de presentar estos rangos como precios de Patitas Felices, la clínica debe aprobarlos y definir inclusiones, moneda, impuestos, tamaños/condiciones y valores finales. Hasta entonces se identifican en pantalla como **referencias de mercado para la demo**.
+
 ## Dirección visual acordada
 
 La dirección será **moderna y clínica**, con una sensación profesional y limpia, pero no fría. La paleta inicial acordada combina teal y verde suave con neutros claros:
@@ -124,7 +150,7 @@ Estos valores son una propuesta inicial y deben verificarse en los componentes f
 
 1. **Encabezado:** logo, enlaces a Inicio, Servicios, Equipo y Contacto, más CTA **Agendar cita**.
 2. **Hero:** fotografía profesional, mensaje que explique de inmediato la atención veterinaria y botón **Agendar cita**; el acceso a emergencias se mantiene claramente diferenciado.
-3. **Servicios destacados:** tarjetas de consulta, vacunación, cirugía y peluquería, con precios referenciales cuando la clínica los proporcione.
+3. **Servicios destacados:** tarjetas de consulta, vacunación, cirugía y peluquería, con los rangos orientativos en USD definidos para la demo y sujetos a aprobación de la clínica.
 4. **Confianza:** trayectoria de ocho años y presentación del equipo veterinario.
 5. **Testimonios:** incluir testimonios reales y verificables; no inventar reseñas.
 6. **Contacto práctico:** ubicación, horarios, teléfono y WhatsApp.
@@ -209,7 +235,7 @@ Mostrar un mensaje de confirmación con el resumen de la cita, los datos de cont
 - Mostrar disponibilidad actualizada y permitir escoger otro horario si el seleccionado ya no está libre.
 - Mantener acceso a emergencias visible en las pantallas del flujo.
 
-El diseño detallado de las pantallas de este flujo queda pendiente de validación con la clínica. Los precios, el horario operativo, el teléfono, la disponibilidad real y el aviso de privacidad no se deben inventar.
+El diseño detallado de las pantallas de este flujo queda pendiente de validación con la clínica. Los rangos mostrados son referencias de mercado; los precios oficiales, el horario operativo, el teléfono, la disponibilidad real y el aviso de privacidad deben confirmarse.
 
 ## Mapa de calor heurístico del agendamiento
 

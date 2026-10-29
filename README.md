@@ -302,13 +302,29 @@ pnpm preview
 - Especie, motivo, nombre del tutor y teléfono son obligatorios. Nombre y edad de la mascota son opcionales.
 - Los datos se mantienen solamente en memoria mientras la página está abierta. **No se envían a la clínica, no se almacenan y no se crea una reserva real.** Si la persona elige compartir el resumen, el navegador lo pasa al panel de compartir del dispositivo; el evento de calendario se descarga solo bajo petición.
 - Las fechas, horarios y acciones de compartir/añadir al calendario son demostrativos. Dirección, teléfono, precios, horarios de la clínica, equipo y testimonios deben confirmarse antes de publicar.
-- Las páginas están preparadas para `https://mi-dominio.com`; sustituir ese dominio en canonical, Open Graph, `public/robots.txt` y `public/sitemap.xml` al definir el dominio definitivo.
+- La publicación de GitHub Pages prevista es `https://seeb-afk.github.io/proyecto-patitas-felices/`. Canonical, Open Graph, `robots.txt` y sitemap usan esa dirección.
+
+### Publicar en GitHub Pages sin GitHub Actions
+
+Vite tiene un modo de compilación para el subdirectorio de este repositorio. No se necesita un workflow de Actions:
+
+```bash
+pnpm install
+pnpm build:pages
+git add docs
+git commit -m "Build GitHub Pages site"
+git push origin main
+```
+
+Después, en GitHub abre **Settings → Pages → Build and deployment**, selecciona **Deploy from a branch**, elige `main` y la carpeta `/docs`. La carpeta `docs/` contiene el sitio generado y debe incluirse en el commit. Cada vez que cambie el sitio, vuelve a ejecutar `pnpm build:pages` y publica los cambios de `docs/`.
+
+El modo local sigue usando `/` como base; GitHub Pages usa `/proyecto-patitas-felices/`. Los enlaces internos son relativos para funcionar bajo ese subdirectorio. Si más adelante se conecta un dominio propio, habrá que actualizar `base` en `vite.config.js`, las URL canónicas, Open Graph, `public/robots.txt` y `public/sitemap.xml`.
 
 ### SEO y despliegue
 
 `public/robots.txt` permite rastrear las páginas públicas y anuncia el sitemap XML. El sitemap contiene solo las páginas previstas; el flujo final de la demo se muestra como un estado de `agendar.html`, no como una URL que almacene datos personales. Los metadatos y las URL canónicas están definidos por página.
 
-El archivo `public/_headers` usa el formato de configuración de encabezados de algunos hostings estáticos, como Cloudflare Pages y Netlify. **No es configuración universal**: verificar que el hosting realmente la aplique. HSTS solo es efectivo sobre HTTPS. No añadir `includeSubDomains` ni `preload` hasta confirmar que todos los subdominios pertinentes operan correctamente con HTTPS.
+El archivo `public/_headers` usa el formato de configuración de algunos hostings estáticos, como Cloudflare Pages y Netlify. **GitHub Pages no procesa ese archivo**, por lo que CSP y otros encabezados personalizados no quedan aplicados allí. Habilita **Enforce HTTPS** en la configuración de Pages; para controlar CSP/HSTS personalizados se requiere un proxy o hosting que permita establecer encabezados. No añadir `includeSubDomains` ni `preload` hasta confirmar que todos los subdominios pertinentes operan correctamente con HTTPS.
 
 ### Límites y medidas de seguridad
 

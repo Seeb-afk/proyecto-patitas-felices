@@ -1,23 +1,23 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="theme-color" content="#0f766e" /><link rel="stylesheet" href="/src/style.css?direct" />
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="theme-color" content="#0f766e" /><link rel="stylesheet" href="./src/style.css?direct" />
     <meta name="description" content="Prueba la demo interactiva de agendamiento de Patitas Felices. No se envían ni guardan solicitudes reales." />
-    <link rel="canonical" href="https://mi-dominio.com/agendar.html" /><meta property="og:title" content="Agendar una cita | Patitas Felices" /><meta property="og:description" content="Demo interactiva del flujo para solicitar una cita veterinaria." /><meta property="og:url" content="https://mi-dominio.com/agendar.html" />
+    <link rel="canonical" href="https://seeb-afk.github.io/proyecto-patitas-felices/agendar.html" /><meta property="og:title" content="Agendar una cita | Patitas Felices" /><meta property="og:description" content="Demo interactiva del flujo para solicitar una cita veterinaria." /><meta property="og:url" content="https://seeb-afk.github.io/proyecto-patitas-felices/agendar.html" />
     <title>Agendar una cita | Patitas Felices</title>
   </head>
   <body class="bg-brand-pale">
     <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-3 focus:shadow" href="#contenido">Saltar al contenido</a>
     <header class="sticky top-0 z-40 border-b border-emerald-100 bg-white/95 backdrop-blur">
       <div class="container-shell flex min-h-[68px] items-center justify-between gap-3 px-4 sm:min-h-[76px] sm:px-8 lg:px-10">
-        <a class="flex shrink-0 items-center gap-2 text-base font-extrabold text-brand-dark sm:text-lg" href="/" aria-label="Patitas Felices, inicio"><span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-soft text-xl text-brand" aria-hidden="true">✿</span>Patitas Felices</a>
-        <a class="inline-flex min-h-10 items-center gap-2 rounded-full border border-red-200 bg-red-50 px-3 text-xs font-bold text-urgent hover:bg-red-100 sm:px-4 sm:text-sm" href="/contacto.html#emergencias"><span class="h-2 w-2 rounded-full bg-urgent" aria-hidden="true"></span>Emergencias</a>
+        <a class="flex shrink-0 items-center gap-2 text-base font-extrabold text-brand-dark sm:text-lg" href="./" aria-label="Patitas Felices, inicio"><span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-soft text-xl text-brand" aria-hidden="true">✿</span>Patitas Felices</a>
+        <a class="inline-flex min-h-10 items-center gap-2 rounded-full border border-red-200 bg-red-50 px-3 text-xs font-bold text-urgent hover:bg-red-100 sm:px-4 sm:text-sm" href="./contacto.html#emergencias"><span class="h-2 w-2 rounded-full bg-urgent" aria-hidden="true"></span>Emergencias</a>
       </div>
     </header>
 
     <main id="contenido" class="container-shell max-w-6xl py-8 sm:py-12">
       <div class="mx-auto max-w-4xl">
-        <a class="text-sm font-bold text-brand hover:text-brand-dark" href="/">← Volver al inicio</a>
+        <a class="text-sm font-bold text-brand hover:text-brand-dark" href="./">← Volver al inicio</a>
         <div class="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-950" role="note">
           <strong>Demo:</strong> los horarios son ejemplos y no se crea una reserva real. Los datos no se envían a la clínica ni se guardan; solo salen de esta página si eliges compartir el resumen.
         </div>
@@ -54,11 +54,11 @@
                 <div id="reason-other-wrap" class="mt-5" hidden><label class="form-label" for="reason-other">Describe el motivo <span class="text-urgent" aria-hidden="true">*</span></label><input class="form-control" id="reason-other" name="reasonOther" maxlength="120" placeholder="Motivo de la visita"></div>
                 <div class="mt-5"><label class="form-label" for="pet-notes">Síntomas o condición médica <span class="font-normal text-muted">(opcional)</span></label><textarea class="form-control min-h-24 resize-y" id="pet-notes" name="petNotes" rows="3" maxlength="300" placeholder="Añade información que consideres importante"></textarea><p class="mt-2 text-xs text-muted">No incluyas información sensible que no sea necesaria para esta demo.</p></div>
                 <p class="mt-5 text-xs text-muted"><span class="text-urgent">*</span> Campos obligatorios. Nombre y edad de la mascota son opcionales.</p>
-                <div class="mt-7 flex flex-col-reverse justify-between gap-3 sm:flex-row"><a class="btn-secondary" href="/">Cancelar</a><button class="btn-primary" type="button" data-next-step="1">Continuar <span aria-hidden="true">→</span></button></div>
+                <div class="mt-7 flex flex-col-reverse justify-between gap-3 sm:flex-row"><a class="btn-secondary" href="./">Cancelar</a><button class="btn-primary" type="button" data-next-step="1">Continuar <span aria-hidden="true">→</span></button></div>
               </div>
               <aside class="space-y-4">
                 <div class="rounded-3xl border border-emerald-100 bg-white p-6"><span class="grid h-11 w-11 place-items-center rounded-2xl bg-brand-soft text-xl font-bold text-brand" aria-hidden="true">＋</span><h2 class="mt-4 font-extrabold text-brand-dark">Una sola clínica</h2><p class="mt-2 text-sm leading-6 text-muted">No tienes que elegir sede. Mostraremos los detalles de ubicación al confirmar.</p><p class="mt-4 border-t border-emerald-100 pt-4 text-xs leading-5 text-muted">La edad y el nombre de tu mascota se pueden dejar en blanco.</p></div>
-                <div class="rounded-3xl border border-red-100 bg-red-50 p-6"><h2 class="font-extrabold text-[#7d201a]">¿Necesitas atención urgente?</h2><p class="mt-2 text-sm leading-6 text-[#7d5652]">Este formulario es para citas habituales. Usa la información de contacto de emergencia de la clínica.</p><a class="mt-4 inline-flex font-bold text-urgent" href="/contacto.html#emergencias">Ver emergencias →</a></div>
+                <div class="rounded-3xl border border-red-100 bg-red-50 p-6"><h2 class="font-extrabold text-[#7d201a]">¿Necesitas atención urgente?</h2><p class="mt-2 text-sm leading-6 text-[#7d5652]">Este formulario es para citas habituales. Usa la información de contacto de emergencia de la clínica.</p><a class="mt-4 inline-flex font-bold text-urgent" href="./contacto.html#emergencias">Ver emergencias →</a></div>
               </aside>
             </div>
           </section>
@@ -102,11 +102,11 @@
           <p class="mt-4 text-sm text-muted">Dirección y horarios: pendientes de confirmación con la clínica.</p>
           <div class="mt-7 flex flex-col justify-center gap-3 sm:flex-row"><button class="btn-primary" id="download-calendar" type="button">Descargar evento de demo</button><button class="btn-secondary" id="share-appointment" type="button">Compartir resumen</button></div>
           <p id="share-feedback" class="mt-3 min-h-5 text-sm text-muted" role="status" aria-live="polite"></p>
-          <div class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><button class="text-sm font-bold text-brand hover:text-brand-dark" type="button" data-reset-booking>Empezar otra vez</button><a class="text-sm font-bold text-brand hover:text-brand-dark" href="/">Volver al inicio</a></div>
+          <div class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><button class="text-sm font-bold text-brand hover:text-brand-dark" type="button" data-reset-booking>Empezar otra vez</button><a class="text-sm font-bold text-brand hover:text-brand-dark" href="./">Volver al inicio</a></div>
         </section>
       </div>
     </main>
-    <footer class="mt-10 border-t border-emerald-100 bg-white py-6"><div class="container-shell flex flex-col gap-3 text-center text-xs text-muted sm:flex-row sm:items-center sm:justify-between sm:text-left"><span>Patitas Felices · Agendamiento de demostración</span><a class="font-bold text-brand" href="/contacto.html#emergencias">¿Necesitas atención urgente?</a></div></footer>
+    <footer class="mt-10 border-t border-emerald-100 bg-white py-6"><div class="container-shell flex flex-col gap-3 text-center text-xs text-muted sm:flex-row sm:items-center sm:justify-between sm:text-left"><span>Patitas Felices · Agendamiento de demostración</span><a class="font-bold text-brand" href="./contacto.html#emergencias">¿Necesitas atención urgente?</a></div></footer>
     <script type="module" src="/src/main.js"></script>
     <script type="module" src="/src/booking.js"></script>
   </body>

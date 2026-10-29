@@ -217,3 +217,125 @@ body {
     animation: none !important;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-white: #17231f;
+    --color-ink: #e7f0ec;
+    --color-muted: #b2c4bc;
+    --color-brand-pale: #14231e;
+    --color-brand-soft: #223a31;
+    --color-emerald-50: #14231e;
+    --color-emerald-100: #223a31;
+    --color-emerald-200: #365447;
+    --color-emerald-300: #4c705e;
+    --color-red-50: #351f1d;
+    --color-red-100: #4b2925;
+    --color-red-200: #71423a;
+    --color-red-900: #ffe2dc;
+    --color-amber-50: #352b16;
+    --color-amber-200: #6b5728;
+    --color-amber-950: #fff0c7;
+    --color-slate-200: #35423d;
+  }
+
+  body {
+    background-color: #101916;
+    color: #e7f0ec;
+  }
+
+  .text-brand-dark {
+    color: #e2eee8 !important;
+  }
+
+  .text-brand {
+    color: #79ddc5 !important;
+  }
+
+  .text-muted {
+    color: #b2c4bc !important;
+  }
+
+  .text-urgent {
+    color: #ff9b91 !important;
+  }
+
+  .text-white {
+    color: #ffffff !important;
+  }
+
+  [class~="text-white/85"] {
+    color: rgb(255 255 255 / 85%) !important;
+  }
+
+  [class~="text-emerald-50"] {
+    color: #edf7f1 !important;
+  }
+
+  [class~="text-emerald-50/80"] {
+    color: rgb(237 247 241 / 82%) !important;
+  }
+
+  [class~="text-emerald-100/70"],
+  [class~="text-emerald-100/75"] {
+    color: #bfd5ca !important;
+  }
+
+  [class~="text-emerald-200"] {
+    color: #b8e8d0 !important;
+  }
+
+  [class~="text-amber-950"] {
+    color: #fff0c7 !important;
+  }
+
+  [class~="text-red-900"] {
+    color: #ffe2dc !important;
+  }
+
+  [class~="text-[#7d201a]"] {
+    color: #ffd4ce !important;
+  }
+
+  [class~="text-[#7d5652]"] {
+    color: #efb9b1 !important;
+  }
+
+  [class~="text-[#8f2118]"] {
+    color: #ffc0b8 !important;
+  }
+
+  [class~="bg-[#eaf5ef]"] {
+    background-color: #1b2b25 !important;
+  }
+
+  [class~="bg-white/10"] {
+    background-color: rgb(255 255 255 / 10%) !important;
+  }
+
+  [class~="border-white/40"] {
+    border-color: rgb(255 255 255 / 45%) !important;
+  }
+
+  [class~="border-white/80"] {
+    border-color: rgb(255 255 255 / 20%) !important;
+  }
+
+  .calendar-day {
+    color: #d5e8df;
+  }
+
+  .time-slot {
+    border-color: #4a6859;
+    color: #d5e8df;
+  }
+
+  .time-slot[aria-pressed="true"] {
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline-color: #82e3ca;
+  }
+}

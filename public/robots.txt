@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mi-dominio.com/sitemap.xml
+Sitemap: https://seeb-afk.github.io/proyecto-patitas-felices/sitemap.xml

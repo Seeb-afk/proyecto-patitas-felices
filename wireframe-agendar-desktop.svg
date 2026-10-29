@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="3600" viewBox="0 0 1440 3600" preserveAspectRatio="xMidYMid meet" overflow="hidden" style="max-width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe del flujo de citas — escritorio</title>
+  <desc id="desc">Cuatro pantallas del flujo de agendamiento de Patitas Felices: mascota y motivo, fecha y hora, datos del tutor y confirmación.</desc>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#303638}.muted{fill:#747b7e}.dark{fill:#263234}.white{fill:#fff}
+    .screen{fill:#F5F6F6;stroke:#CFD5D6;stroke-width:2}.panel{fill:#fff;stroke:#C7CECF;stroke-width:2}
+    .field{fill:#fff;stroke:#ADB6B8;stroke-width:1.5}.button{fill:#DDE2E3;stroke:#586164;stroke-width:1.5}
+    .label{font-size:15px;font-weight:700}.body{font-size:17px}.small{font-size:13px}
+  </style>
+  <rect width="1440" height="3600" fill="#E9ECEC"/>
+
+  <!-- Screen 1: Pet and reason -->
+  <g>
+    <rect x="0" y="0" width="1440" height="880" class="screen"/>
+    <rect x="0" y="0" width="1440" height="76" fill="#fff"/>
+    <text x="92" y="48" font-size="21" font-weight="700">PATITAS FELICES</text>
+    <text x="1060" y="47" font-size="14" font-weight="700">¿Emergencia? Llamar / WhatsApp</text>
+    <line x1="0" y1="76" x2="1440" y2="76" stroke="#C7CECF"/>
+    <text x="92" y="112" class="small muted">AGENDAR CITA · PASO 1 DE 3</text>
+    <line x1="92" y1="144" x2="1348" y2="144" stroke="#C7CECF" stroke-width="4"/>
+    <line x1="92" y1="144" x2="510" y2="144" stroke="#596467" stroke-width="4"/>
+    <circle cx="92" cy="144" r="13" fill="#596467"/><circle cx="510" cy="144" r="13" fill="#fff" stroke="#9AA3A5" stroke-width="3"/><circle cx="928" cy="144" r="13" fill="#fff" stroke="#9AA3A5" stroke-width="3"/>
+    <text x="92" y="177" class="small" font-weight="700">Mascota y motivo</text><text x="510" y="177" text-anchor="middle" class="small muted">Fecha y hora</text><text x="928" y="177" text-anchor="middle" class="small muted">Tus datos</text>
+    <text x="190" y="232" font-size="32" font-weight="700">Cuéntanos sobre tu mascota</text>
+    <text x="190" y="263" class="body muted">Así podremos preparar mejor su consulta.</text>
+    <rect x="190" y="286" width="760" height="512" rx="12" class="panel"/>
+    <text x="222" y="326" class="label">Especie <tspan fill="#555">*</tspan></text>
+    <rect x="222" y="340" width="696" height="52" rx="7" class="field"/><text x="242" y="372" class="body muted">Selecciona una especie</text><text x="888" y="372" class="body muted">⌄</text>
+    <text x="222" y="429" class="label">Nombre de la mascota <tspan class="muted" font-weight="400">(opcional)</tspan></text>
+    <rect x="222" y="443" width="430" height="52" rx="7" class="field"/><text x="242" y="475" class="small muted">Escribe su nombre</text>
+    <text x="674" y="429" class="label">Edad <tspan class="muted" font-weight="400">(opcional)</tspan></text>
+    <rect x="674" y="443" width="244" height="52" rx="7" class="field"/><text x="694" y="475" class="small muted">Edad y unidad</text><text x="890" y="475" class="small muted">⌄</text>
+    <text x="222" y="532" class="label">Motivo de la cita <tspan fill="#555">*</tspan></text>
+    <rect x="222" y="546" width="696" height="52" rx="7" class="field"/><text x="242" y="578" class="body muted">Selecciona el motivo</text><text x="888" y="578" class="body muted">⌄</text>
+    <text x="222" y="619" font-size="11" class="muted">Consulta · Vacunación · Desparasitación · Peluquería · Evaluación para cirugía · Seguimiento · Otro</text>
+    <text x="222" y="655" class="label">Síntomas o condición médica <tspan class="muted" font-weight="400">(opcional)</tspan></text>
+    <rect x="222" y="669" width="696" height="76" rx="7" class="field"/><text x="242" y="701" class="small muted">Añade cualquier información que consideres importante</text>
+    <text x="222" y="773" font-size="12" class="muted">* Campos obligatorios. Si eliges «Otro», podrás especificar el motivo.</text>
+    <rect x="190" y="817" width="152" height="45" rx="8" fill="#fff" stroke="#929B9D" stroke-width="1.5"/><text x="266" y="845" text-anchor="middle" class="small">Cancelar</text>
+    <rect x="780" y="817" width="170" height="45" rx="8" class="button"/><text x="865" y="845" text-anchor="middle" class="label">Continuar →</text>
+    <rect x="980" y="286" width="270" height="215" rx="12" class="panel"/>
+    <text x="1008" y="328" class="label">Una sola clínica</text><text x="1008" y="360" class="small muted">No necesitas elegir una sede.</text><text x="1008" y="384" class="small muted">La dirección y los horarios</text><text x="1008" y="408" class="small muted">se mostrarán al confirmar.</text>
+    <line x1="1008" y1="433" x2="1222" y2="433" stroke="#D4D9DA"/><text x="1008" y="466" class="small">¿Es una emergencia?</text><text x="1008" y="488" class="small" font-weight="700">Llamar o escribir ahora →</text>
+    <text x="92" y="875" font-size="12" class="muted">WIREFRAME · DESKTOP 1440 PX · 1 / 4</text>
+  </g>
+
+  <!-- Screen 2: Date and time -->
+  <g transform="translate(0 900)">
+    <rect x="0" y="0" width="1440" height="880" class="screen"/>
+    <rect x="0" y="0" width="1440" height="76" fill="#fff"/>
+    <text x="92" y="48" font-size="21" font-weight="700">PATITAS FELICES</text><text x="1060" y="47" font-size="14" font-weight="700">¿Emergencia? Llamar / WhatsApp</text><line x1="0" y1="76" x2="1440" y2="76" stroke="#C7CECF"/>
+    <text x="92" y="112" class="small muted">AGENDAR CITA · PASO 2 DE 3</text><line x1="92" y1="144" x2="1348" y2="144" stroke="#C7CECF" stroke-width="4"/><line x1="92" y1="144" x2="928" y2="144" stroke="#596467" stroke-width="4"/><circle cx="92" cy="144" r="13" fill="#596467"/><circle cx="510" cy="144" r="13" fill="#596467"/><circle cx="928" cy="144" r="13" fill="#fff" stroke="#9AA3A5" stroke-width="3"/>
+    <text x="92" y="177" class="small muted">Mascota y motivo</text><text x="510" y="177" text-anchor="middle" class="small" font-weight="700">Fecha y hora</text><text x="928" y="177" text-anchor="middle" class="small muted">Tus datos</text>
+    <text x="190" y="232" font-size="32" font-weight="700">Elige fecha y hora</text><text x="190" y="263" class="body muted">Selecciona una opción disponible para tu cita.</text>
+    <rect x="190" y="286" width="660" height="510" rx="12" class="panel"/>
+    <text x="222" y="330" class="label">Fecha de la cita</text><text x="520" y="330" class="body" font-weight="700">[Mes / año]</text><text x="785" y="330" class="body">‹　›</text>
+    <line x1="222" y1="348" x2="818" y2="348" stroke="#D4D9DA"/>
+    <g class="small muted" text-anchor="middle"><text x="268" y="381">Lu</text><text x="350" y="381">Ma</text><text x="432" y="381">Mi</text><text x="514" y="381">Ju</text><text x="596" y="381">Vi</text><text x="678" y="381">Sá</text><text x="760" y="381">Do</text></g>
+    <g class="small" text-anchor="middle">
+      <text x="268" y="425">1</text><text x="350" y="425">2</text><text x="432" y="425">3</text><text x="514" y="425">4</text><text x="596" y="425">5</text><text x="678" y="425">6</text><text x="760" y="425">7</text>
+      <text x="268" y="473">8</text><text x="350" y="473">9</text><text x="432" y="473">10</text><text x="514" y="473">11</text><text x="596" y="473">12</text><text x="678" y="473">13</text><text x="760" y="473">14</text>
+      <text x="268" y="521">15</text><text x="350" y="521">16</text><text x="432" y="521">17</text><text x="514" y="521">18</text><text x="596" y="521">19</text><text x="678" y="521">20</text><text x="760" y="521">21</text>
+      <text x="268" y="569">22</text><text x="350" y="569">23</text><text x="432" y="569">24</text><text x="514" y="569">25</text><text x="596" y="569">26</text><text x="678" y="569">27</text><text x="760" y="569">28</text>
+      <text x="268" y="617">29</text><text x="350" y="617">30</text><text x="432" y="617">31</text>
+    </g>
+    <circle cx="514" cy="563" r="21" fill="#DDE2E3" stroke="#596467" stroke-width="1.5"/>
+    <text x="222" y="680" class="small muted">Fechas y horarios de ejemplo; mostrar disponibilidad real.</text>
+    <text x="222" y="720" class="small">Fecha seleccionada: <tspan font-weight="700">[día / mes]</tspan></text>
+    <rect x="222" y="742" width="160" height="38" rx="7" fill="#DDE2E3"/><text x="302" y="766" text-anchor="middle" class="small" font-weight="700">10:00 a. m.</text>
+    <rect x="395" y="742" width="160" height="38" rx="7" class="field"/><text x="475" y="766" text-anchor="middle" class="small">11:30 a. m.</text>
+    <rect x="568" y="742" width="160" height="38" rx="7" class="field"/><text x="648" y="766" text-anchor="middle" class="small">2:00 p. m.</text>
+    <rect x="890" y="286" width="360" height="290" rx="12" class="panel"/>
+    <text x="922" y="328" class="label">Resumen de la cita</text><line x1="922" y1="346" x2="1218" y2="346" stroke="#D4D9DA"/>
+    <text x="922" y="382" class="small muted">Mascota</text><text x="922" y="405" class="small">[Especie] · [Nombre si indicado]</text>
+    <text x="922" y="445" class="small muted">Motivo</text><text x="922" y="468" class="small">[Motivo seleccionado]</text>
+    <text x="922" y="508" class="small muted">Clínica</text><text x="922" y="531" class="small">Patitas Felices · sede única</text>
+    <rect x="190" y="817" width="160" height="45" rx="8" fill="#fff" stroke="#929B9D" stroke-width="1.5"/><text x="270" y="845" text-anchor="middle" class="small">← Volver</text>
+    <rect x="680" y="817" width="170" height="45" rx="8" class="button"/><text x="765" y="845" text-anchor="middle" class="label">Continuar →</text>
+    <text x="92" y="875" font-size="12" class="muted">WIREFRAME · DESKTOP 1440 PX · 2 / 4</text>
+  </g>
+
+  <!-- Screen 3: Owner details -->
+  <g transform="translate(0 1800)">
+    <rect x="0" y="0" width="1440" height="880" class="screen"/><rect x="0" y="0" width="1440" height="76" fill="#fff"/>
+    <text x="92" y="48" font-size="21" font-weight="700">PATITAS FELICES</text><text x="1060" y="47" font-size="14" font-weight="700">¿Emergencia? Llamar / WhatsApp</text><line x1="0" y1="76" x2="1440" y2="76" stroke="#C7CECF"/>
+    <text x="92" y="112" class="small muted">AGENDAR CITA · PASO 3 DE 3</text><line x1="92" y1="144" x2="1348" y2="144" stroke="#596467" stroke-width="4"/><circle cx="92" cy="144" r="13" fill="#596467"/><circle cx="510" cy="144" r="13" fill="#596467"/><circle cx="928" cy="144" r="13" fill="#596467"/>
+    <text x="92" y="177" class="small muted">Mascota y motivo</text><text x="510" y="177" text-anchor="middle" class="small muted">Fecha y hora</text><text x="928" y="177" text-anchor="middle" class="small" font-weight="700">Tus datos</text>
+    <text x="190" y="232" font-size="32" font-weight="700">¿Cómo podemos contactarte?</text><text x="190" y="263" class="body muted">Revisa los datos antes de confirmar tu cita.</text>
+    <rect x="190" y="286" width="650" height="390" rx="12" class="panel"/>
+    <text x="222" y="329" class="label">Nombre completo <tspan fill="#555">*</tspan></text><rect x="222" y="343" width="586" height="54" rx="7" class="field"/><text x="242" y="376" class="small muted">Escribe tu nombre</text>
+    <text x="222" y="435" class="label">Teléfono <tspan fill="#555">*</tspan></text><rect x="222" y="449" width="586" height="54" rx="7" class="field"/><text x="242" y="482" class="small muted">Número para confirmar o aclarar la cita</text>
+    <text x="222" y="540" class="small muted">No necesitas crear una cuenta ni proporcionar correo.</text>
+    <line x1="222" y1="563" x2="808" y2="563" stroke="#D4D9DA"/><text x="222" y="598" class="small">* Datos obligatorios</text>
+    <text x="222" y="638" font-size="12" class="muted">Aviso de privacidad: texto pendiente de validación con la clínica.</text>
+    <rect x="880" y="286" width="370" height="390" rx="12" class="panel"/>
+    <text x="912" y="329" class="label">Revisa tu cita</text><line x1="912" y1="347" x2="1218" y2="347" stroke="#D4D9DA"/>
+    <text x="912" y="383" class="small muted">Mascota</text><text x="912" y="406" class="small" font-weight="700">[Especie] · [Nombre opcional] · [Edad opcional]</text>
+    <text x="912" y="446" class="small muted">Motivo</text><text x="912" y="469" class="small">[Motivo de la cita]</text>
+    <text x="912" y="509" class="small muted">Fecha y hora</text><text x="912" y="532" class="small">[Fecha] · [Hora]</text>
+    <text x="912" y="572" class="small muted">Clínica</text><text x="912" y="595" class="small">Patitas Felices · [dirección]</text>
+    <text x="190" y="720" class="small muted">Al volver al paso anterior, tus datos se conservarán.</text>
+    <rect x="190" y="817" width="160" height="45" rx="8" fill="#fff" stroke="#929B9D" stroke-width="1.5"/><text x="270" y="845" text-anchor="middle" class="small">← Volver</text>
+    <rect x="670" y="817" width="170" height="45" rx="8" class="button"/><text x="755" y="845" text-anchor="middle" class="label">Confirmar cita</text>
+    <text x="92" y="875" font-size="12" class="muted">WIREFRAME · DESKTOP 1440 PX · 3 / 4</text>
+  </g>
+
+  <!-- Screen 4: Confirmation -->
+  <g transform="translate(0 2700)">
+    <rect x="0" y="0" width="1440" height="880" class="screen"/><rect x="0" y="0" width="1440" height="76" fill="#fff"/>
+    <text x="92" y="48" font-size="21" font-weight="700">PATITAS FELICES</text><text x="1060" y="47" font-size="14" font-weight="700">¿Emergencia? Llamar / WhatsApp</text><line x1="0" y1="76" x2="1440" y2="76" stroke="#C7CECF"/>
+    <circle cx="720" cy="210" r="42" fill="#DDE2E3" stroke="#727C7F" stroke-width="2"/><path d="M700 210l14 14 27-31" fill="none" stroke="#465154" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="720" y="292" text-anchor="middle" font-size="34" font-weight="700">¡Tu cita está confirmada!</text><text x="720" y="327" text-anchor="middle" class="body muted">Guarda los detalles para tenerlos a mano.</text>
+    <rect x="390" y="365" width="660" height="292" rx="14" class="panel"/>
+    <text x="430" y="409" class="label">Resumen de tu cita</text><line x1="430" y1="427" x2="1010" y2="427" stroke="#D4D9DA"/>
+    <text x="430" y="464" class="small muted">Mascota</text><text x="610" y="464" class="small" font-weight="700">[Especie] · [Nombre opcional] · [Edad opcional]</text>
+    <text x="430" y="504" class="small muted">Motivo</text><text x="610" y="504" class="small">[Motivo]</text>
+    <text x="430" y="544" class="small muted">Fecha y hora</text><text x="610" y="544" class="small">[Fecha] · [Hora]</text>
+    <text x="430" y="584" class="small muted">Clínica</text><text x="610" y="584" class="small">Patitas Felices · [Dirección]</text>
+    <text x="430" y="624" class="small muted">Contacto</text><text x="610" y="624" class="small">[Teléfono de la clínica]</text>
+    <rect x="390" y="690" width="300" height="54" rx="9" class="button"/><text x="540" y="723" text-anchor="middle" class="label">Añadir al calendario</text>
+    <rect x="710" y="690" width="340" height="54" rx="9" class="button"/><text x="880" y="723" text-anchor="middle" class="label">Compartir por WhatsApp</text>
+    <text x="720" y="792" text-anchor="middle" class="small muted">Dirección, horario e instrucciones se mostrarán al confirmarse con la clínica.</text>
+    <text x="720" y="846" text-anchor="middle" class="small" font-weight="700">Volver al inicio</text>
+    <text x="92" y="875" font-size="12" class="muted">WIREFRAME · DESKTOP 1440 PX · CONFIRMACIÓN</text>
+  </g>
+</svg>

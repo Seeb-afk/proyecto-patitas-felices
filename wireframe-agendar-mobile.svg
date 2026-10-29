@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="3720" viewBox="0 0 390 3720" preserveAspectRatio="xMidYMid meet" overflow="hidden" style="max-width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe del flujo de citas — móvil</title>
+  <desc id="desc">Cuatro pantallas móviles del flujo de agendamiento de Patitas Felices, en un artboard vertical para revisar cada paso.</desc>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#303638}.muted{fill:#747b7e}.dark{fill:#263234}.white{fill:#fff}
+    .screen{fill:#F5F6F6;stroke:#CFD5D6;stroke-width:1.5}.panel{fill:#fff;stroke:#C7CECF;stroke-width:1.5}
+    .field{fill:#fff;stroke:#ADB6B8;stroke-width:1.3}.button{fill:#DDE2E3;stroke:#586164;stroke-width:1.3}
+    .small{font-size:12px}.label{font-size:13px;font-weight:700}.body{font-size:14px}
+  </style>
+  <rect width="390" height="3720" fill="#E9ECEC"/>
+
+  <!-- Screen 1: Pet and reason -->
+  <g>
+    <rect x="0" y="0" width="390" height="910" class="screen"/>
+    <rect x="0" y="0" width="390" height="66" fill="#fff"/><line x1="0" y1="65" x2="390" y2="65" stroke="#C7CECF"/>
+    <text x="20" y="41" font-size="17" font-weight="700">PATITAS FELICES</text><text x="252" y="40" font-size="11" font-weight="700">¿Emergencia?</text>
+    <text x="20" y="94" font-size="11" class="muted">AGENDAR CITA · PASO 1 DE 3</text>
+    <line x1="25" y1="119" x2="365" y2="119" stroke="#C7CECF" stroke-width="3"/><line x1="25" y1="119" x2="195" y2="119" stroke="#596467" stroke-width="3"/><circle cx="25" cy="119" r="9" fill="#596467"/><circle cx="195" cy="119" r="9" fill="#fff" stroke="#929B9D" stroke-width="2"/><circle cx="365" cy="119" r="9" fill="#fff" stroke="#929B9D" stroke-width="2"/>
+    <text x="25" y="145" font-size="10" font-weight="700">Mascota</text><text x="195" y="145" text-anchor="middle" font-size="10" class="muted">Fecha</text><text x="365" y="145" text-anchor="end" font-size="10" class="muted">Tus datos</text>
+    <text x="20" y="188" font-size="25" font-weight="700">Datos de tu mascota</text><text x="20" y="213" class="small muted">Cuéntanos quién necesita atención.</text>
+    <rect x="20" y="232" width="350" height="530" rx="10" class="panel"/>
+    <text x="38" y="267" class="label">Especie *</text><rect x="38" y="279" width="314" height="48" rx="6" class="field"/><text x="52" y="309" class="small muted">Selecciona una especie</text><text x="334" y="309" class="body muted">⌄</text>
+    <text x="38" y="362" class="label">Nombre de la mascota <tspan class="muted" font-weight="400">(opcional)</tspan></text><rect x="38" y="374" width="314" height="48" rx="6" class="field"/><text x="52" y="404" class="small muted">Escribe su nombre si lo deseas</text>
+    <text x="38" y="457" class="label">Edad <tspan class="muted" font-weight="400">(opcional)</tspan></text><rect x="38" y="469" width="314" height="48" rx="6" class="field"/><text x="52" y="499" class="small muted">Edad y unidad (años / meses)</text>
+    <text x="38" y="552" class="label">Motivo de la cita *</text><rect x="38" y="564" width="314" height="48" rx="6" class="field"/><text x="52" y="594" class="small muted">Selecciona el motivo</text><text x="334" y="594" class="body muted">⌄</text>
+    <text x="38" y="632" font-size="9" class="muted">Consulta · vacuna · desparasitación · peluquería</text><text x="38" y="647" font-size="9" class="muted">cirugía · seguimiento · otro</text>
+    <text x="38" y="676" class="label">Síntomas o condición médica <tspan class="muted" font-weight="400">(opcional)</tspan></text>
+    <rect x="38" y="688" width="314" height="58" rx="6" class="field"/><text x="52" y="713" font-size="11" class="muted">Añade información importante, si lo deseas.</text>
+    <text x="20" y="778" font-size="11" class="muted">* Campos obligatorios. «Otro» permite especificar.</text>
+    <rect x="20" y="804" width="112" height="46" rx="7" fill="#fff" stroke="#929B9D" stroke-width="1.3"/><text x="76" y="832" text-anchor="middle" class="small">Cancelar</text>
+    <rect x="220" y="804" width="150" height="46" rx="7" class="button"/><text x="295" y="832" text-anchor="middle" class="label">Continuar →</text>
+    <text x="20" y="889" font-size="10" class="muted">MÓVIL 390 PX · PASO 1 / 4</text>
+  </g>
+
+  <!-- Screen 2: Date and time -->
+  <g transform="translate(0 930)">
+    <rect x="0" y="0" width="390" height="910" class="screen"/><rect x="0" y="0" width="390" height="66" fill="#fff"/><line x1="0" y1="65" x2="390" y2="65" stroke="#C7CECF"/>
+    <text x="20" y="41" font-size="17" font-weight="700">PATITAS FELICES</text><text x="252" y="40" font-size="11" font-weight="700">¿Emergencia?</text>
+    <text x="20" y="94" font-size="11" class="muted">AGENDAR CITA · PASO 2 DE 3</text><line x1="25" y1="119" x2="365" y2="119" stroke="#C7CECF" stroke-width="3"/><line x1="25" y1="119" x2="280" y2="119" stroke="#596467" stroke-width="3"/><circle cx="25" cy="119" r="9" fill="#596467"/><circle cx="195" cy="119" r="9" fill="#596467"/><circle cx="365" cy="119" r="9" fill="#fff" stroke="#929B9D" stroke-width="2"/>
+    <text x="25" y="145" font-size="10" class="muted">Mascota</text><text x="195" y="145" text-anchor="middle" font-size="10" font-weight="700">Fecha</text><text x="365" y="145" text-anchor="end" font-size="10" class="muted">Tus datos</text>
+    <text x="20" y="188" font-size="25" font-weight="700">Elige fecha y hora</text><text x="20" y="213" class="small muted">Solo mostramos horarios disponibles.</text>
+    <rect x="20" y="232" width="350" height="332" rx="10" class="panel"/>
+    <text x="38" y="268" class="label">Fecha de la cita</text><text x="195" y="268" text-anchor="middle" class="small" font-weight="700">[Mes / año]</text><text x="337" y="268" text-anchor="end" class="body">‹　›</text>
+    <line x1="38" y1="284" x2="352" y2="284" stroke="#D4D9DA"/>
+    <g font-size="10" class="muted" text-anchor="middle"><text x="62" y="310">L</text><text x="106" y="310">M</text><text x="150" y="310">M</text><text x="194" y="310">J</text><text x="238" y="310">V</text><text x="282" y="310">S</text><text x="326" y="310">D</text></g>
+    <g font-size="11" text-anchor="middle">
+      <text x="62" y="345">1</text><text x="106" y="345">2</text><text x="150" y="345">3</text><text x="194" y="345">4</text><text x="238" y="345">5</text><text x="282" y="345">6</text><text x="326" y="345">7</text>
+      <text x="62" y="389">8</text><text x="106" y="389">9</text><text x="150" y="389">10</text><text x="194" y="389">11</text><text x="238" y="389">12</text><text x="282" y="389">13</text><text x="326" y="389">14</text>
+      <text x="62" y="433">15</text><text x="106" y="433">16</text><text x="150" y="433">17</text><text x="194" y="433">18</text><text x="238" y="433">19</text><text x="282" y="433">20</text><text x="326" y="433">21</text>
+      <text x="62" y="477">22</text><text x="106" y="477">23</text><text x="150" y="477">24</text><text x="194" y="477">25</text><text x="238" y="477">26</text><text x="282" y="477">27</text><text x="326" y="477">28</text>
+      <text x="62" y="521">29</text><text x="106" y="521">30</text><text x="150" y="521">31</text>
+    </g>
+    <circle cx="194" cy="471" r="17" fill="#DDE2E3" stroke="#596467" stroke-width="1.2"/>
+    <text x="20" y="599" class="label">Horarios disponibles <tspan class="muted" font-weight="400">(ejemplo)</tspan></text>
+    <rect x="20" y="614" width="164" height="42" rx="7" class="button"/><text x="102" y="640" text-anchor="middle" class="small" font-weight="700">10:00 a. m.</text>
+    <rect x="206" y="614" width="164" height="42" rx="7" class="field"/><text x="288" y="640" text-anchor="middle" class="small">11:30 a. m.</text>
+    <rect x="20" y="666" width="164" height="42" rx="7" class="field"/><text x="102" y="692" text-anchor="middle" class="small">2:00 p. m.</text>
+    <rect x="206" y="666" width="164" height="42" rx="7" class="field"/><text x="288" y="692" text-anchor="middle" class="small">3:30 p. m.</text>
+    <rect x="20" y="724" width="350" height="54" rx="8" class="panel"/><text x="38" y="746" font-size="10" class="muted">Resumen</text><text x="38" y="765" class="small">[Mascota] · [Motivo] · [Fecha y hora]</text>
+    <rect x="20" y="796" width="112" height="46" rx="7" fill="#fff" stroke="#929B9D" stroke-width="1.3"/><text x="76" y="824" text-anchor="middle" class="small">← Volver</text>
+    <rect x="220" y="796" width="150" height="46" rx="7" class="button"/><text x="295" y="824" text-anchor="middle" class="label">Continuar →</text>
+    <text x="20" y="889" font-size="10" class="muted">MÓVIL 390 PX · PASO 2 / 4</text>
+  </g>
+
+  <!-- Screen 3: Owner details -->
+  <g transform="translate(0 1860)">
+    <rect x="0" y="0" width="390" height="910" class="screen"/><rect x="0" y="0" width="390" height="66" fill="#fff"/><line x1="0" y1="65" x2="390" y2="65" stroke="#C7CECF"/>
+    <text x="20" y="41" font-size="17" font-weight="700">PATITAS FELICES</text><text x="252" y="40" font-size="11" font-weight="700">¿Emergencia?</text>
+    <text x="20" y="94" font-size="11" class="muted">AGENDAR CITA · PASO 3 DE 3</text><line x1="25" y1="119" x2="365" y2="119" stroke="#596467" stroke-width="3"/><circle cx="25" cy="119" r="9" fill="#596467"/><circle cx="195" cy="119" r="9" fill="#596467"/><circle cx="365" cy="119" r="9" fill="#596467"/>
+    <text x="25" y="145" font-size="10" class="muted">Mascota</text><text x="195" y="145" text-anchor="middle" font-size="10" class="muted">Fecha</text><text x="365" y="145" text-anchor="end" font-size="10" font-weight="700">Tus datos</text>
+    <text x="20" y="188" font-size="24" font-weight="700">Datos del tutor</text><text x="20" y="213" class="small muted">Te contactaremos para confirmar o aclarar la cita.</text>
+    <rect x="20" y="232" width="350" height="222" rx="10" class="panel"/>
+    <text x="38" y="267" class="label">Nombre completo *</text><rect x="38" y="279" width="314" height="48" rx="6" class="field"/><text x="52" y="309" class="small muted">Escribe tu nombre</text>
+    <text x="38" y="362" class="label">Teléfono *</text><rect x="38" y="374" width="314" height="48" rx="6" class="field"/><text x="52" y="404" class="small muted">Número de contacto</text>
+    <text x="20" y="493" class="label">Revisa tu cita</text>
+    <rect x="20" y="508" width="350" height="190" rx="10" class="panel"/>
+    <text x="38" y="541" class="small muted">Mascota</text><text x="38" y="562" class="small" font-weight="700">[Especie] · [Nombre opcional] · [Edad opcional]</text>
+    <text x="38" y="592" class="small muted">Motivo</text><text x="38" y="613" class="small">[Motivo de la cita]</text>
+    <text x="38" y="643" class="small muted">Fecha y hora</text><text x="38" y="664" class="small">[Fecha] · [Hora]</text>
+    <text x="20" y="728" font-size="11" class="muted">No necesitas crear una cuenta ni dar tu correo.</text>
+    <text x="20" y="750" font-size="10" class="muted">Aviso de privacidad pendiente de validación.</text>
+    <rect x="20" y="786" width="112" height="46" rx="7" fill="#fff" stroke="#929B9D" stroke-width="1.3"/><text x="76" y="814" text-anchor="middle" class="small">← Volver</text>
+    <rect x="206" y="786" width="164" height="46" rx="7" class="button"/><text x="288" y="814" text-anchor="middle" class="label">Confirmar cita</text>
+    <text x="20" y="889" font-size="10" class="muted">MÓVIL 390 PX · PASO 3 / 4</text>
+  </g>
+
+  <!-- Screen 4: Confirmation -->
+  <g transform="translate(0 2790)">
+    <rect x="0" y="0" width="390" height="910" class="screen"/><rect x="0" y="0" width="390" height="66" fill="#fff"/><line x1="0" y1="65" x2="390" y2="65" stroke="#C7CECF"/>
+    <text x="20" y="41" font-size="17" font-weight="700">PATITAS FELICES</text><text x="252" y="40" font-size="11" font-weight="700">¿Emergencia?</text>
+    <circle cx="195" cy="153" r="34" fill="#DDE2E3" stroke="#727C7F" stroke-width="1.5"/><path d="M179 153l11 11 22-24" fill="none" stroke="#465154" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="195" y="221" text-anchor="middle" font-size="25" font-weight="700">¡Cita confirmada!</text><text x="195" y="248" text-anchor="middle" class="small muted">Guarda los detalles para tenerlos a mano.</text>
+    <rect x="20" y="276" width="350" height="286" rx="10" class="panel"/>
+    <text x="38" y="311" class="label">Resumen de la cita</text><line x1="38" y1="326" x2="352" y2="326" stroke="#D4D9DA"/>
+    <text x="38" y="361" class="small muted">Mascota</text><text x="38" y="383" class="small" font-weight="700">[Especie] · [Nombre opcional] · [Edad opcional]</text>
+    <text x="38" y="418" class="small muted">Motivo</text><text x="38" y="440" class="small">[Motivo]</text>
+    <text x="38" y="475" class="small muted">Fecha y hora</text><text x="38" y="497" class="small">[Fecha] · [Hora]</text>
+    <text x="38" y="532" class="small muted">Clínica</text><text x="38" y="554" class="small">[Dirección y contacto por confirmar]</text>
+    <rect x="20" y="590" width="350" height="48" rx="8" class="button"/><text x="195" y="620" text-anchor="middle" class="label">Añadir al calendario</text>
+    <rect x="20" y="650" width="350" height="48" rx="8" class="button"/><text x="195" y="680" text-anchor="middle" class="label">Compartir por WhatsApp</text>
+    <text x="195" y="739" text-anchor="middle" class="small muted">Revisa la dirección y las instrucciones</text><text x="195" y="758" text-anchor="middle" class="small muted">cuando la clínica las confirme.</text>
+    <text x="195" y="807" text-anchor="middle" class="small" font-weight="700">Volver al inicio</text>
+    <text x="20" y="889" font-size="10" class="muted">MÓVIL 390 PX · CONFIRMACIÓN</text>
+  </g>
+</svg>

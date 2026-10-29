@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1240" viewBox="0 0 1440 1240" preserveAspectRatio="xMidYMid meet" overflow="hidden" style="max-width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de calor heurístico de las protopersonas en el flujo de agendamiento</title>
+  <desc id="desc">Matriz cualitativa que compara la atención esperada de Mateo, Don Roberto y Camila en las cuatro etapas de la cita.</desc>
+  <style>
+    text{font-family:Inter,Arial,Helvetica,sans-serif;fill:#243431}.dark{fill:#134E4A}.muted{fill:#58716C}.white{fill:#fff}
+    .head{font-size:16px;font-weight:800}.cellTitle{font-size:16px;font-weight:800}.body{font-size:13px}.small{font-size:11px}
+  </style>
+  <rect width="1440" height="1240" fill="#F6F8F7"/>
+  <text x="80" y="72" font-size="36" font-weight="800" class="dark">Mapa de calor del flujo de cita</text>
+  <text x="80" y="108" font-size="16" class="muted">Atención esperada por protopersona · análisis heurístico, no medición ocular</text>
+
+  <!-- Legend -->
+  <g transform="translate(80 142)">
+    <rect width="205" height="48" rx="15" fill="#FCE9E6" stroke="#E6B5AD"/><circle cx="24" cy="24" r="8" fill="#B42318"/><text x="42" y="29" font-size="13" font-weight="700" fill="#7D201A">Atención alta</text>
+    <rect x="220" width="220" height="48" rx="15" fill="#FFF3D8" stroke="#EBD297"/><circle cx="244" cy="24" r="8" fill="#D08A00"/><text x="262" y="29" font-size="13" font-weight="700" fill="#70500B">Atención media</text>
+    <rect x="455" width="205" height="48" rx="15" fill="#E8F4EC" stroke="#BCD7C6"/><circle cx="479" cy="24" r="8" fill="#39765E"/><text x="497" y="29" font-size="13" font-weight="700" fill="#285640">Atención baja</text>
+    <text x="690" y="29" font-size="12" class="muted">El color indica dónde se espera que cada persona concentre más atención.</text>
+  </g>
+
+  <!-- Column headers -->
+  <rect x="80" y="220" width="190" height="74" rx="16" fill="#E7EEEA"/>
+  <text x="100" y="251" class="head dark">Protopersona</text><text x="100" y="273" class="small muted">Perfil de referencia</text>
+  <g>
+    <rect x="280" y="220" width="260" height="74" rx="16" fill="#134E4A"/><text x="300" y="251" class="head white">1 · Mascota y motivo</text><text x="300" y="273" class="small" fill="#DDECE4">Especie · motivo · notas</text>
+    <rect x="550" y="220" width="260" height="74" rx="16" fill="#134E4A"/><text x="570" y="251" class="head white">2 · Fecha y hora</text><text x="570" y="273" class="small" fill="#DDECE4">Calendario · disponibilidad</text>
+    <rect x="820" y="220" width="260" height="74" rx="16" fill="#134E4A"/><text x="840" y="251" class="head white">3 · Datos y revisión</text><text x="840" y="273" class="small" fill="#DDECE4">Tutor · resumen</text>
+    <rect x="1090" y="220" width="260" height="74" rx="16" fill="#134E4A"/><text x="1110" y="251" class="head white">4 · Confirmación</text><text x="1110" y="273" class="small" fill="#DDECE4">Próximos pasos</text>
+  </g>
+
+  <!-- Mateo row -->
+  <g>
+    <rect x="80" y="305" width="190" height="190" rx="18" fill="#FFFFFF" stroke="#DCE5E0"/>
+    <text x="100" y="341" font-size="19" font-weight="800" class="dark">Mateo</text><text x="100" y="369" class="body">22 · nivel digital alto</text><text x="100" y="401" class="small muted">Primera mascota:</text><text x="100" y="422" class="small muted">Milo, gato joven.</text><text x="100" y="462" font-size="12" font-weight="700" class="teal">Busca rapidez →</text>
+
+    <rect x="280" y="305" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="298" y="321" width="80" height="24" rx="12" fill="#B42318"/><text x="338" y="338" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="298" y="373" class="cellTitle">Vacunación</text><text x="298" y="399" class="body">Especie + motivo</text><text x="298" y="421" class="body">y continuar rápido.</text><text x="298" y="466" class="small muted">Sin cuenta obligatoria.</text>
+
+    <rect x="550" y="305" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="568" y="321" width="80" height="24" rx="12" fill="#B42318"/><text x="608" y="338" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="568" y="373" class="cellTitle">Fecha y franja</text><text x="568" y="399" class="body">Encontrar disponibilidad</text><text x="568" y="421" class="body">de un vistazo.</text><text x="568" y="466" class="small muted">Prioriza calendario claro.</text>
+
+    <rect x="820" y="305" width="260" height="190" rx="18" fill="#FFF3D8" stroke="#EBD297"/><rect x="838" y="321" width="90" height="24" rx="12" fill="#D08A00"/><text x="883" y="338" text-anchor="middle" font-size="11" font-weight="800" class="white">MEDIA</text><text x="838" y="373" class="cellTitle">Contacto breve</text><text x="838" y="399" class="body">Nombre y teléfono</text><text x="838" y="421" class="body">para finalizar.</text><text x="838" y="466" class="small muted">No pedir registro.</text>
+
+    <rect x="1090" y="305" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="1108" y="321" width="80" height="24" rx="12" fill="#B42318"/><text x="1148" y="338" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="1108" y="373" class="cellTitle">Guardar o compartir</text><text x="1108" y="399" class="body">Añadir al calendario</text><text x="1108" y="421" class="body">y guardar el resumen.</text><text x="1108" y="466" class="small muted">Expectativa explícita.</text>
+  </g>
+
+  <!-- Roberto row -->
+  <g>
+    <rect x="80" y="505" width="190" height="190" rx="18" fill="#FFFFFF" stroke="#DCE5E0"/>
+    <text x="100" y="541" font-size="19" font-weight="800" class="dark">Don Roberto</text><text x="100" y="569" class="body">68 · nivel digital bajo</text><text x="100" y="601" class="small muted">Tres mascotas.</text><text x="100" y="622" class="small muted">Busca desparasitación.</text><text x="100" y="662" font-size="12" font-weight="700" class="teal">Necesita claridad →</text>
+
+    <rect x="280" y="505" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="298" y="521" width="80" height="24" rx="12" fill="#B42318"/><text x="338" y="538" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="298" y="573" class="cellTitle">Campos y etiquetas</text><text x="298" y="599" class="body">Especie y motivo</text><text x="298" y="621" class="body">obligatorios, visibles.</text><text x="298" y="666" class="small muted">Nombre/edad opcionales.</text>
+
+    <rect x="550" y="505" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="568" y="521" width="80" height="24" rx="12" fill="#B42318"/><text x="608" y="538" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="568" y="573" class="cellTitle">Calendario legible</text><text x="568" y="599" class="body">Días disponibles y</text><text x="568" y="621" class="body">horas fáciles de tocar.</text><text x="568" y="666" class="small muted">Texto y targets son clave.</text>
+
+    <rect x="820" y="505" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="838" y="521" width="80" height="24" rx="12" fill="#B42318"/><text x="878" y="538" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="838" y="573" class="cellTitle">Tutor y teléfono</text><text x="838" y="599" class="body">Entender qué falta</text><text x="838" y="621" class="body">y corregir errores.</text><text x="838" y="666" class="small muted">Volver sin perder datos.</text>
+
+    <rect x="1090" y="505" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="1108" y="521" width="80" height="24" rx="12" fill="#B42318"/><text x="1148" y="538" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="1108" y="573" class="cellTitle">Confirmación clara</text><text x="1108" y="599" class="body">Dirección e instrucciones</text><text x="1108" y="621" class="body">fáciles de encontrar.</text><text x="1108" y="666" class="small muted">3 mascotas: repetir flujo.</text>
+  </g>
+
+  <!-- Camila row -->
+  <g>
+    <rect x="80" y="705" width="190" height="190" rx="18" fill="#FFFFFF" stroke="#DCE5E0"/>
+    <text x="100" y="741" font-size="19" font-weight="800" class="dark">Camila</text><text x="100" y="769" class="body">34 · nivel medio-alto</text><text x="100" y="801" class="small muted">Thor: condición crónica.</text><text x="100" y="822" class="small muted">Busca control periódico.</text><text x="100" y="862" font-size="12" font-weight="700" class="teal">Prioriza continuidad →</text>
+
+    <rect x="280" y="705" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="298" y="721" width="80" height="24" rx="12" fill="#B42318"/><text x="338" y="738" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="298" y="773" class="cellTitle">Motivo y nota médica</text><text x="298" y="799" class="body">Control + condición</text><text x="298" y="821" class="body">relevante de Thor.</text><text x="298" y="866" class="small muted">Importa que se conserve.</text>
+
+    <rect x="550" y="705" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="568" y="721" width="80" height="24" rx="12" fill="#B42318"/><text x="608" y="738" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="568" y="773" class="cellTitle">Fecha y especialista</text><text x="568" y="799" class="body">Encontrar el próximo</text><text x="568" y="821" class="body">control conveniente.</text><text x="568" y="866" class="small muted">Especialidad no disponible.</text>
+
+    <rect x="820" y="705" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="838" y="721" width="80" height="24" rx="12" fill="#B42318"/><text x="878" y="738" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="838" y="773" class="cellTitle">Revisión clínica</text><text x="838" y="799" class="body">Ver motivo y datos</text><text x="838" y="821" class="body">antes de confirmar.</text><text x="838" y="866" class="small muted">La nota no figura en resumen.</text>
+
+    <rect x="1090" y="705" width="260" height="190" rx="18" fill="#FCE9E6" stroke="#E6B5AD"/><rect x="1108" y="721" width="80" height="24" rx="12" fill="#B42318"/><text x="1148" y="738" text-anchor="middle" font-size="11" font-weight="800" class="white">ALTA</text><text x="1108" y="773" class="cellTitle">Seguimiento posterior</text><text x="1108" y="799" class="body">Guardar indicaciones</text><text x="1108" y="821" class="body">y próximo control.</text><text x="1108" y="866" class="small muted">Historial/recurrencia: fase 2.</text>
+  </g>
+
+  <!-- Cross-persona findings -->
+  <rect x="80" y="930" width="1270" height="1" fill="#D7E1DC"/>
+  <text x="80" y="975" font-size="22" font-weight="800" class="dark">Fricciones transversales que revela la simulación</text>
+  <g>
+    <rect x="80" y="1000" width="395" height="142" rx="18" fill="#FFFFFF" stroke="#DCE5E0"/><text x="102" y="1034" font-size="14" font-weight="800" fill="#B42318">01 · Falta información real</text><text x="102" y="1063" class="body">Teléfono de emergencia, horarios,</text><text x="102" y="1085" class="body">precios y disponibilidad están pendientes.</text><text x="102" y="1120" class="small muted">Impide completar la tarea fuera de la demo.</text>
+    <rect x="500" y="1000" width="395" height="142" rx="18" fill="#FFFFFF" stroke="#DCE5E0"/><text x="522" y="1034" font-size="14" font-weight="800" fill="#B42318">02 · Una mascota por solicitud</text><text x="522" y="1063" class="body">Don Roberto tendría que repetir el flujo</text><text x="522" y="1085" class="body">para Max, Bella y Pelusa.</text><text x="522" y="1120" class="small muted">Evaluar añadir otra mascota o repetir cita.</text>
+    <rect x="920" y="1000" width="430" height="142" rx="18" fill="#FFFFFF" stroke="#DCE5E0"/><text x="942" y="1034" font-size="14" font-weight="800" fill="#B42318">03 · Contexto médico no continúa</text><text x="942" y="1063" class="body">La nota de Camila no aparece en el</text><text x="942" y="1085" class="body">resumen final; no hay citas recurrentes.</text><text x="942" y="1120" class="small muted">Mostrar la nota y validar seguimiento futuro.</text>
+  </g>
+  <text x="80" y="1192" font-size="12" class="muted">Heatmap cualitativo basado en perfiles y pantallas actuales. No es eye-tracking ni una prueba con participantes; validar mediante test de usabilidad.</text>
+</svg>

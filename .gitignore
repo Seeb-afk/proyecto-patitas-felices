@@ -1,0 +1,21 @@
+prompt_de_prueba_de_usabilidad_para_ia.md
+
+.env
+
+/imagenes-paginas
+
+*.pdf
+*.txt
+!public/robots.txt
+
+# Build output and local dependencies
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Local environment and OS files
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
